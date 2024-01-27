@@ -239,7 +239,7 @@ html{
     cursor: pointer;
     filter: grayscale(100%);
     transition: 0.3s;
-    outline: 3px solid aqua;
+    border: 3px solid aqua;
 }
 .profile:hover img{
     filter: grayscale(0);

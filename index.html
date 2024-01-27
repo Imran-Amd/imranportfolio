@@ -37,27 +37,27 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
           style="box-shadow: none; color: aqua; border-color: aqua;">
-          <span class="las la-info" id="geticon" onclick="changeIcon(this)"></span>
+          <span class="las la-info" id="geticon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-lg-4">
             <li class="nav-item">
-              <a class="nav-link active" onclick="getNav(0); changeIcon(document.getElementById('geticon'))" aria-current="page" href="#model">home</a>
+              <a class="nav-link active" onclick="getNav(0)" aria-current="page" href="#model">home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" onclick="getNav(1); changeIcon(document.getElementById('geticon'))" href="#services">services</a>
+              <a class="nav-link" onclick="getNav(1)" href="#services">services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" onclick="getNav(2); changeIcon(document.getElementById('geticon'))" href="#work">work</a>
+              <a class="nav-link" onclick="getNav(2)" href="#work">work</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" onclick="getNav(3); changeIcon(document.getElementById('geticon'))" href="#about">about</a>
+              <a class="nav-link" onclick="getNav(3)" href="#about">about</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" onclick="getNav(4); changeIcon(document.getElementById('geticon'))" href="#team">our team</a>
+              <a class="nav-link" onclick="getNav(4)" href="#team">our team</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" onclick="getNav(5); changeIcon(document.getElementById('geticon'))" href="#contact">contact</a>
+              <a class="nav-link" onclick="getNav(5)" href="#contact">contact</a>
             </li>
           </ul>
           <div class="links ms-auto" style="font-size: 20px;">
@@ -580,13 +580,6 @@
     }
   </script>
   <!--nav menu close-->
-  <!--navbar togller close icon-->
-  <script>
-    let changeIcon = function (icon) {
-      icon.classList.toggle('la-times')
-    }
-  </script>
-  <!--navbar togller close icon-->
   <!--AOS-->
   <script>
     AOS.init();
