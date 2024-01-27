@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Imran | Portfolio</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="./logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="./stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <style>
+    .active {
+      color: aqua !important;
+      font-weight: 600 !important;
+    }
+  </style>
+</head>
+
+<body onload="fun()" data-bs-spy="scroll" data-bs-target="#navbarNav">
+  <!--loading animation-->
+  <div id="preloader"></div>
+  <!--loading animation-->
+  <!--navbaar-->
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top navbar-scrolled">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">عمران</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+          style="box-shadow: none; color: aqua; border-color: aqua;">
+          <span class="las la-info" id="geticon" onclick="changeIcon(this)"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-lg-4">
+            <li class="nav-item">
+              <a class="nav-link active" onclick="getNav(0); changeIcon(document.getElementById('geticon'))" aria-current="page" href="#model">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="getNav(1); changeIcon(document.getElementById('geticon'))" href="#services">services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="getNav(2); changeIcon(document.getElementById('geticon'))" href="#work">work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="getNav(3); changeIcon(document.getElementById('geticon'))" href="#about">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="getNav(4); changeIcon(document.getElementById('geticon'))" href="#team">our team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" onclick="getNav(5); changeIcon(document.getElementById('geticon'))" href="#contact">contact</a>
+            </li>
+          </ul>
+          <div class="links ms-auto" style="font-size: 20px;">
+            <a title="twitter" href="https://x.com/imran__amd?s=21&t=AdDm-akCTTZmerHFKom6-w"><i class="fa-brands fa-x-twitter"></i></a>
+            <a title="instagram" href="https://www.instagram.com/imran__amd?igsh=MTdva2ZkdjJ4Y2gxYg%3D%3D&utm_source=qr"><i
+                class="fa-brands fa-instagram"></i></a>
+            <a title="github" href="#"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--navbaar-->
+  <!--content-->
+  <section class="section" id="model">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="display-1" data-aos="fade-up"><span style="color: aqua;">IMRAN</span> AHMED</h1>
+          <p data-aos-delay="400" data-aos="fade-up" data-aos-offset="0">Hi!! It's imran here, i'm a student at "Star
+            Infotech Collage" ajmer.
+            I learn so i'm a learner. I develop web so i'm a weber! I love to live, work, eat, travel and sleep.
+          </p>
+          <a class="btn btn-outline-light" id="homebtn" target="_blank" href="./imran resume.pdf" data-aos-delay="500"
+            data-aos="fade-up" data-aos-offset="0">my resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--content-->
+  <!--services-->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-12" data-aos-delay="230" data-aos="fade-up">
+          <div class="service">
+            <div style="height: 4px; background-color: var(--dark);"></div>
+            <h1 class="display-4">our services</h1>
+            <p class="mx-auto">A successful website does three things:
+              It attracts the right kinds of visitors.
+              Guides them to the main services or product you offer.
+              Collect Contact details for future ongoing relation.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row gy-4">
+        <div class="col-lg-6" data-aos="fade-up">
+          <div class="serve">
+            <div class="icon">
+              <i class="las la-pencil-ruler"></i>
+            </div>
+            <div>
+              <h4>brand indentity</h4>
+              <P>we provide you the best of the web support to make your web best with brand identity.
+                the visible elements of a brand, such as color, design, and logo, that identify and distinguish the
+                brand in consumer's minds.
+              </P>
+              <a href="#exampleModal" class="arrow" data-bs-toggle="modal" data-bs-target="#exampleModal">read more<i class="las la-long-arrow-alt-right"></i></a>
+              <!-- Modal -->
+              <div class="modal fade" style="backdrop-filter: blur(5px);" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">BRAND IDENTITY</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <P>we provide you the best of the web support to make your web best with brand identity.
+                        the visible elements of a brand, such as color, design, and logo, that identify and distinguish the
+                        brand in consumer's minds.
+                      </P>
+                      <ul>
+                        <li>We provide you the brand value.</li>
+                        <li>Our brand is collabrated with industry leaders.</li>
+                        <li>Our efforts and your plans.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal -->
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos-delay="300" data-aos="fade-up">
+          <div class="serve">
+            <div class="icon">
+              <i class="las la-coffee"></i>
+            </div>
+            <div>
+              <h4>ui/ux design</h4>
+              <P>Our team is here to make your platform's ui to be the best out there. we provide everthing client want
+                from our end.
+                And we always make platform's a user friendly experience to all. If you choose us then it's gonna be the
+                best out there.
+              </P>
+              <a href="#exampleModal1" class="arrow" data-bs-toggle="modal" data-bs-target="#exampleModal1">read more<i class="las la-long-arrow-alt-right"></i></a>
+              <!-- Modal -->
+              <div class="modal fade" style="backdrop-filter: blur(5px);" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">UI/UX DESIGN</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <P>Our team is here to make your platform's ui to be the best out there. we provide everthing client want
+                        from our end.
+                        And we always make platform's a user friendly experience to all. If you choose us then it's gonna be the
+                        best out there.
+                      </P>
+                      <ul>
+                        <li>Our platformt creates the best ui's out there.</li>
+                        <li>The examlples of the best we set.</li>
+                        <li>we have the best ui designers and designs.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal -->
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos-delay="500" data-aos="fade-up">
+          <div class="serve">
+            <div class="icon">
+              <i class="las la-tv"></i>
+            </div>
+            <div>
+              <h4>web development</h4>
+              <P>In the world of upgradation and putting everthing online here we are to help you with
+                your website and your plateform to reach out all your customers out on web. our websites are the best
+                among the others.
+              </P>
+              <a href="#exampleModal2" class="arrow" data-bs-toggle="modal" data-bs-target="#exampleModal2">read more<i class="las la-long-arrow-alt-right"></i></a>
+              <!-- Modal -->
+              <div class="modal fade" style="backdrop-filter: blur(5px);" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">WEB DEVELOPMENT</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <P>In the world of upgradation and putting everthing online here we are to help you with
+                        your website and your plateform to reach out all your customers out on web. our websites are the best
+                        among the others.
+                      </P>
+                      <ul>
+                        <li>We focus on the websites that make you smile.</li>
+                        <li>Our websites are more friendly response.</li>
+                        <li>The websites are future and we believe in it.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal -->
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos-delay="700" data-aos="fade-up">
+          <div class="serve">
+            <div class="icon">
+              <i class="lab la-adobe"></i>
+            </div>
+            <div>
+              <h4>extras</h4>
+              <P>Every service user want to be the best and something extra from us so, for that we are here to provide
+                you
+                24/7 services regarding out work. and we provide you some extra activities like video/photo editing for
+                your platform.
+              </P>
+              <a href="#exampleModal3" class="arrow" data-bs-toggle="modal" data-bs-target="#exampleModal3">read more<i class="las la-long-arrow-alt-right"></i></a>
+              <!-- Modal -->
+              <div class="modal fade" style="backdrop-filter: blur(5px);" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">THE EXSTRAS</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <P>Every service user want to be the best and something extra from us so, for that we are here to provide
+                        you
+                        24/7 services regarding out work. and we provide you some extra activities like video/photo editing for
+                        your platform.
+                      </P>
+                      <ul>
+                        <li>The best customer service we provide.</li>
+                        <li>We have more and more happy customers.</li>
+                        <li>We provide you some skills that you need for free like editing and many more.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Modal -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--services-->
+  <!--projects-->
+  <section class="section" id="work">
+    <div class="container">
+      <div class="row">
+        <div class="col-12" data-aos-delay="230" data-aos="fade-up">
+          <div class="project">
+            <div style="height: 4px; background-color: var(--white);"></div>
+            <h1 class="display-4">my Portfolio</h1>
+            <p class="mx-auto">So this is our Portfolio where you can find some of the best work we did for our clients
+              you can select the work styles from here or you can also contact us for some new projects!!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row prh">
+        <div class="col-lg-4 col-md-6 projectimg" data-aos="fade-up">
+          <div class="card shadow mx-auto" style="width: 18rem; height: 15rem;">
+            <div class="inner">
+              <img src="./project 1.png" style="height: 15rem;" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <h3 class="text-center mt-2">PROJECT 1</h3>
+        </div>
+        <div class="col-lg-4 col-md-6 projectimg" data-aos-delay="200" data-aos="fade-up">
+          <div class="card shadow mx-auto" style="width: 18rem; height: 15rem;">
+            <div class="inner">
+              <img src="./project 2.png" style="height: 15rem;" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <h3 class="text-center mt-2">PROJECT 2</h3>
+        </div>
+        <div class="col-lg-4 col-md-6 projectimg" data-aos-delay="400" data-aos="fade-up">
+          <div class="card shadow mx-auto" style="width: 18rem;  height: 15rem;">
+            <div class="inner">
+              <img src="./project 3.png" style="height: 15rem;" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <h3 class="text-center mt-2">PROJECT 3</h3>
+        </div>
+        <div class="col-lg-4 col-md-6 projectimg" data-aos-delay="500" data-aos="fade-up">
+          <div class="card shadow mx-auto" style="width: 18rem; height: 15rem;">
+            <div class="inner">
+              <img src="./project 4.png" style="height: 15rem;" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <h3 class="text-center mt-2">PROJECT 4</h3>
+        </div>
+        <div class="col-lg-4 col-md-6 projectimg" data-aos-delay="650" data-aos="fade-up">
+          <div class="card shadow mx-auto" style="width: 18rem; height: 15rem;">
+            <div class="inner">
+              <img src="./project 5.png" style="height: 15rem;" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <h3 class="text-center mt-2">PROJECT 5</h3>
+        </div>
+        <div class="col-lg-4 col-md-6 projectimg" data-aos-delay="750" data-aos="fade-up">
+          <div class="card shadow mx-auto" style="width: 18rem; height: 15rem;">
+            <div class="inner">
+              <img src="./project 6.png" style="height: 15rem;" class="card-img-top" alt="...">
+            </div>
+          </div>
+          <h3 class="text-center mt-2">PROJECT 6</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--projects-->
+  <!--about-->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="row" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-lg-6">
+          <div class="service mb-4">
+            <h1 class="display-4">it's about me</h1>
+          </div>
+          <div>
+            <p><b>Birthday:</b> 28-May-2003</p>
+          </div>
+          <div>
+            <p><b>Age:</b> 20</p>
+          </div>
+          <div>
+            <p><b>Degree:</b> Bachlors of computer applications</p>
+          </div>
+          <div>
+            <p><b>Address:</b> Ajmer, Raj(305001)</p>
+          </div>
+          <p>I'm a 20 years old guy who love to create a better world with tech. i create and generate usefull things to
+            people.
+            i love to work with teams and solo both. coding is my passion, may be it's not in my past but i'm learning
+            it to be my current and future.
+          </p>
+          <a href="#footer" class="btn btn-outline-dark">CONTACT ME</a>
+        </div>
+        <div class="col-lg-6 mt-3">
+          <div class="card image-wrape mx-auto" style="width: 19rem; border: none;">
+            <img src="./img6.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--about-->
+  <!--team-->
+  <section class="section" id="team">
+    <div class="container">
+      <div class="row">
+        <div class="col-12" data-aos-delay="230" data-aos="fade-up">
+          <div class="project">
+            <div style="height: 4px; background-color: var(--white);"></div>
+            <h1 class="display-4">meet our team</h1>
+            <p class="mx-auto">all this work that you have seen has done by our team. our team has most responsible and
+              telented people and this is a small intro
+              of them.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6" data-aos="fade-up">
+          <div class="card profile mx-auto mt-4" style="width: 15rem;">
+            <img class="card-img-top mt-4" src="./imgs.jpeg" alt="Card image cap">
+            <div class="card-body mt-4">
+              <h3 class="text-center">SAIF<br>SIDDIQUE</h3>
+              <h5 class="text-center">Developer</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6" data-aos-delay="300" data-aos="fade-up">
+          <div class="card profile mx-auto mt-4" style="width: 15rem;">
+            <img class="card-img-top mt-4" src="./imga.jpeg" alt="Card image cap">
+            <div class="card-body mt-4">
+              <h3 class="text-center">AYAN<br>KHAN</h3>
+              <h5 class="text-center">Developer</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6" data-aos-delay="500" data-aos="fade-up">
+          <div class="card profile mx-auto mt-4" style="width: 15rem;">
+            <img class="card-img-top mt-4" src="./imgar.jpeg" alt="Card image cap">
+            <div class="card-body mt-4">
+              <h3 class="text-center">AR<br>REHMAN</h3>
+              <h5 class="text-center">Designer</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6" data-aos-delay="700" data-aos="fade-up">
+          <div class="card profile mx-auto mt-4" style="width: 15rem;">
+            <img class="card-img-top mt-4" src="./imgb.jpeg" alt="Card image cap">
+            <div class="card-body mt-4">
+              <h3 class="text-center">BASIT<br>KHAN</h3>
+              <h5 class="text-center">Programmer</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--team-->
+  <!--contact-->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-12" data-aos-delay="230" data-aos="fade-up">
+          <div class="service">
+            <div style="height: 4px; background-color: var(--dark);"></div>
+            <h1 class="display-4">LET'S GET IN TOUCH</h1>
+            <p class="mx-auto">Let's talk about your project, fill all the necesary details and things about
+              your projects below, and we'll reach you as soon as possible.
+              Thank U!!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row" data-aos-delay="330" data-aos="fade-up">
+        <div class="col-lg-8 mx-auto">
+          <form class="row gy-3" style="box-shadow: 2px 2px 10px 0px;">
+            <div class="col-lg-6">
+              <input type="text" class="form-control" placeholder="ENTER YOUR NAME">
+            </div>
+            <div class="col-lg-6">
+              <input type="email" class="form-control" placeholder="ENTER EMAIL">
+            </div>
+            <div class="col-12">
+              <input type="text" class="form-control" placeholder="SUBJECT">
+            </div>
+            <div class="col-12">
+              <textarea class="form-control" rows="3" placeholder="ENTER YOUR TEXT!"></textarea>
+            </div>
+            <div class="col-12">
+              <button style="min-width: 200px;" data-bs-toggle="modal" data-bs-target="#exampleModal5"
+                class="btn btn-outline-dark">SEND</button>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" style="backdrop-filter: blur(5px);" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Thank you!!</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body text-center">
+                    <p>your details has been submitted successfuly.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--contact-->
+  <!--footer-->
+  <section id="footer">
+    <footer>
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-auto">
+            <div>
+              <p class="mb-0 mt-4" style="font-size: 20px;">EMAIL:-</p>
+              <h2>imran12thc@gmail.com</h2>
+            </div>
+            <div>
+              <p class="mb-0 mt-4" style="font-size: 20px;">PHONE:-</p>
+              <h2>+91 8302593714</h2>
+            </div>
+          </div>
+          <div class="col-auto">
+            <h2 class="mt-4">Follow me on</h2>
+            <div class="links ms-auto" style="font-size: 36px;">
+              <a title="twitter" href="https://x.com/imran__amd?s=21&t=AdDm-akCTTZmerHFKom6-w"><i
+                  class="fa-brands fa-x-twitter"></i></a>
+              <a title="instagram" href="https://www.instagram.com/imran__amd?igsh=MTdva2ZkdjJ4Y2gxYg%3D%3D&utm_source=qr"><i
+                  class="fa-brands fa-instagram"></i></a>
+              <a title="github" href="#"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-12">
+            <div class="mt-5 text-center">
+              <p>Designed by <a href="#" class="f-link">!mran A Shaikh</a> </p>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="text-center">
+              <p>Copyright &copy; All Rights Reserved</p>
+            </div>
+            <a href="#" class="to-top">
+              <i class="las la-angle-double-up"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+  <!--footer-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <!--navbar scroll effect-->
+  <script>
+    const navEl = document.querySelector('.navbar');
+    function fun() {
+      navEl.classList.remove('navbar-scrolled');
+    }
+    window.addEventListener('scroll', () => {
+      if (window.scrollY >= 56) {
+        navEl.classList.add('navbar-scrolled');
+      } else if (window.scrollY < 56) {
+        navEl.classList.remove('navbar-scrolled');
+      }
+    });
+    window.addEventListener('load', () => {
+      console.log(document.documentElement.scrollTop = 0);
+    })
+  </script>
+  <!--navbar scroll effect-->
+  <!--scroll to top-->
+  <script>
+    const toTop = document.querySelector(".to-top");
+
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 500) {
+        toTop.classList.add("active");
+      } else {
+        toTop.classList.remove("active");
+      }
+    });
+  </script>
+  <!--scroll to top-->
+  <!--preloader-->
+  <script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function () {
+      loader.style.display = "none";
+    })
+  </script>
+  <!--preloader-->
+  <!--nav menu close-->
+  <script>
+    const getNav = (getIndex) => {
+      let selector = document.querySelectorAll('.nav-link');
+      let buttonAct = document.querySelector('.navbar-toggler');
+      let collapse = document.querySelector('.navbar-collapse');
+      collapse.classList.remove('collapse' , 'show')
+      collapse.classList.add('collapse')
+      buttonAct.classList.add('collapsed');
+      buttonAct.setAttribute('aria-expanded' , "false");
+    }
+  </script>
+  <!--nav menu close-->
+  <!--navbar togller close icon-->
+  <script>
+    let changeIcon = function (icon) {
+      icon.classList.toggle('la-times')
+    }
+  </script>
+  <!--navbar togller close icon-->
+  <!--AOS-->
+  <script>
+    AOS.init();
+  </script>
+  <!--AOS-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
